@@ -79,7 +79,7 @@ app.post("/api/smash", (req, res) => {
 
 // GET /api/smashes -> returns current counter
 app.get("/api/smashes", (req, res) => {
-  res.json({ smashes });
+  res.json({ smashes, note: "Current smash count"});
 });
 
 // GET /api/secret?code=411L -> hidden message if code is correct
