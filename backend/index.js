@@ -21,7 +21,7 @@ app.use(express.json());
 
 // Data pools (random picks). You can customize these.
 const fortunes = [
-  "We Got it.",
+  "We Got it Dzuhh.",
   "Your next commit will be clean and meaningful.",
   "A bug will disappear when you add one console.log().",
   "You passed the vibe check today. 😎",
